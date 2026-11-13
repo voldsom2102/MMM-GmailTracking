@@ -1,6 +1,10 @@
 # MMM-GmailTracking
 
-A MagicMirror² module that searches Gmail for shipment emails and asks Gemini to extract the carrier, tracking number, expected delivery date, and delivery status. It uses the official Gmail API, not web scraping. It does **not** query carriers or provide live tracking: fields are based on the emails, and unavailable or unsupported information is shown as unknown. In particular, "shipped" or "out for delivery" does not by itself mean a package is on time.
+If you like my work, consider buying me a coffee.
+
+<a href="https://ko-fi.com/ajmartin_dev"><img height="36" src="https://storage.ko-fi.com/cdn/kofi6.png?v=6" alt="Buy Me a Coffee at ko-fi.com" /></a>
+
+A [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) module that searches Gmail for shipment emails and asks Gemini to extract the carrier, tracking number, expected delivery date, and delivery status. It uses the official Gmail API, not web scraping. It does **not** query carriers or provide live tracking: fields are based on the emails, and unavailable or unsupported information is shown as unknown. In particular, "shipped" or "out for delivery" does not by itself mean a package is on time.
 
 ## Privacy and security
 
@@ -64,3 +68,7 @@ Emails with the same tracking number are deduplicated, keeping the most recent m
 ## Development
 
 Run `npm test` using Node.js 18 or newer. Tests use mock API responses and do not require credentials or network access.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
