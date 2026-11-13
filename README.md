@@ -67,7 +67,7 @@ Emails with the same tracking number are deduplicated, keeping the most recent m
 
 ## Development
 
-Run `npm test` using Node.js 18 or newer. Tests use mock API responses and do not require credentials or network access.
+Run `npm test` using Node.js 18 or newer. Tests use mock API responses and do not require credentials or network access. Run `npm run lint` to check the JavaScript files with ESLint.
 
 ## License
 
