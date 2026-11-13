@@ -1,0 +1,13 @@
+.gmail-tracking {
+  font-size: 0.65em;
+  line-height: 1.4;
+}
+
+.gmail-tracking-shipment {
+  margin-bottom: 0.7em;
+}
+
+.gmail-tracking-error {
+  color: #ff9a9a;
+  margin-bottom: 0.7em;
+}
